@@ -1,0 +1,20 @@
+service: general
+
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  bolter:
+    handler: bolter.main
+    description: Fire off bolterbot at a url
+    timeout: 30
+
+plugins:
+  - serverless-python-requirements
+  - serverless-plugin-bespoken
+
+custom:
+  pythonRequirements:
+    dockerizePip: true

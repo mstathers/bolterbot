@@ -2,11 +2,11 @@ import praw
 
 replyText = "DRILL YOUR BOLTER, BROTHER!"
 
-egUrl = 'https://www.reddit.com/r/testingground4bots/comments/dfap5k/can_you_guys_comment_bot_like_stuff_im_testing_a/'
+def main(event, context):
+    url = event['url']
 
-def main():
     reddit = praw.Reddit('bolterbot')
-    submission = reddit.submission(url=egUrl)
+    submission = reddit.submission(url=url)
 
     # Upvote because effort should be rewarded.
     submission.upvote()
