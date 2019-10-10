@@ -10,6 +10,15 @@ functions:
     handler: bolter.main
     description: Fire off bolterbot at a url
     timeout: 30
+    events:
+        - http:
+            method: get
+            path: /{url}
+            request:
+                parameters:
+                    paths:
+                        url: true
+
 
 plugins:
   - serverless-python-requirements
