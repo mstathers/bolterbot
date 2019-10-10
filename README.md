@@ -1,6 +1,6 @@
 ### BolterBot
 
-A reddit bot that will be used to respond to hobby modeling threads to suggest that people drill out their gun barrels. Will be ran out of AWS lambda and will take a thread url as input.
+A reddit bot that will be used to respond to hobby modeling threads to suggest that people drill out their gun barrels. It's designed be ran out of AWS lambda via their API gateway and it takes a reddit post ID as a url parameter.
 
 #### Setup
 
