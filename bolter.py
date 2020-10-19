@@ -2,9 +2,11 @@ import praw
 from praw.exceptions import APIException
 import json
 
-replyText = '''DRILL YOUR BOLTER, BROTHER! It's easy and I promise you'll love the look.
+replyText = '''DRILL YOUR BOLTER, BROTHER!
 
-You can buy a pin vise set on Amazon https://amzn.to/35smCQS
+Buy a pin vise set on
+Amazon.com - https://www.amazon.com/dp/B07FJ6VD2P/
+Amazon.ca - https://www.amazon.ca/gp/product/B085NFRRJ2
 '''
 
 def response(message, status_code):
