@@ -1,3 +1,7 @@
 {
-    "url": "https://www.reddit.com/r/testingground4bots/comments/dfap5k/can_you_guys_comment_bot_like_stuff_im_testing_a/"
+    "url": "https://www.reddit.com/r/testingground4bots/comments/jep6wu/test/",
+    "httpMethod": "GET",
+    "pathParameters": {
+        "url": "jep6wu"
+    }
 }
