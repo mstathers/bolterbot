@@ -5,8 +5,8 @@ import json
 replyText = '''DRILL YOUR BOLTER, BROTHER!
 
 Buy a pin vise set on:  
-[Amazon.com](https://www.amazon.com/dp/B07FJ6VD2P/)  
-[Amazon.ca](https://www.amazon.ca/gp/product/B085NFRRJ2)
+[Amazon.com](https://www.amazon.com/s?k=pin+vise)  
+[Amazon.ca](https://www.amazon.ca/s?k=pin+vise)
 '''
 
 def response(message, status_code):
